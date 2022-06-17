@@ -58,6 +58,12 @@ module.exports = {
           position: "right",
         },
         {
+          to: "/assets",
+          activeBasePath: "assets",
+          label: "assets",
+          position: "right",
+        },
+        {
           to: "/showcase",
           activeBasePath: "showcase",
           label: "Showcase",
