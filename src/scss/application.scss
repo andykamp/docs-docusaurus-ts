@@ -1,8 +1,8 @@
 /* stylelint-disable docusaurus/copyright-header */
 @import 'media-blender';
-@import '_font-face';
-@import '_box-sizing';
-@import 'font-smoothing';
+@import 'mixins/_font-face';
+@import 'mixins/_box-sizing';
+@import 'mixins/font-smoothing';
 
 
 /* Utils */
