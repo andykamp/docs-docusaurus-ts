@@ -2,7 +2,7 @@ import React from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import Layout from "@theme/Layout";
-import Pricing from "../theme/sections/pricing/pricing";
+import Changelog from "../theme/sections/changelog/changelog";
 
 export default function Sass() {
   const context = useDocusaurusContext();
@@ -10,13 +10,13 @@ export default function Sass() {
 
   return (
     <Layout
-      title={"Pricing"}
+      title={"changelog"}
       description={siteConfig.tagline}
       keywords={siteConfig.customFields.keywords}
       metaImage={useBaseUrl(`img/${siteConfig.customFields.image}`)}
-      wrapperClassName={"page-pricing"}
+      wrapperClassName={"page-changelog"}
     >
-      <Pricing />
+      <Changelog />
     </Layout>
   );
 }

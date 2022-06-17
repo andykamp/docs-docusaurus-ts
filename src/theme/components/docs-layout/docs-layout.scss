@@ -1,8 +1,7 @@
 // This file has multiple nestings because Docusaurus adds its custom selectors that he overrides in build phase and doesn't take into account your overrides.
 // Themes are not mend to be overriden whole but only partial.
 
-.docs-wrapper,
-.blog-post-page  {
+.docs-wrapper  {
 	#__docusaurus {
 		--bottom-spacing: 60px;
 

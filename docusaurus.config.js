@@ -52,6 +52,12 @@ module.exports = {
           position: "right",
         },
         {
+          to: "/changelog",
+          activeBasePath: "changelog",
+          label: "changelog",
+          position: "right",
+        },
+        {
           to: "/showcase",
           activeBasePath: "showcase",
           label: "Showcase",
@@ -79,12 +85,12 @@ module.exports = {
           customCss: require.resolve("./src/scss/application.scss"),
         },
         blog: {
-          blogTitle: "Some blogtitle",
-          blogDescription: "Some blogdescription",
-          blogSidebarTitle: "Latest posts",
-          showReadingTime: true,
-          postsPerPage: 20,
-          blogSidebarCount: 0,
+          // blogTitle: "Some blogtitle",
+          // blogDescription: "Some blogdescription",
+          blogSidebarTitle: "All our blogs",
+          // showReadingTime: true,
+          postsPerPage: 200,
+          // blogSidebarCount: 0,
         },
         sitemap: {
           changefreq: "weekly",
