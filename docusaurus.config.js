@@ -63,12 +63,6 @@ module.exports = {
           label: "assets",
           position: "right",
         },
-        {
-          to: "/showcase",
-          activeBasePath: "showcase",
-          label: "Showcase",
-          position: "right",
-        },
       ],
     },
     prism: {
