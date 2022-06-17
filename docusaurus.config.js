@@ -54,14 +54,20 @@ module.exports = {
         {
           to: "/changelog",
           activeBasePath: "changelog",
-          label: "changelog",
+          label: "Changelog",
           position: "right",
         },
         {
           to: "/assets",
           activeBasePath: "assets",
-          label: "assets",
+          label: "Assets",
           position: "right",
+        },
+        {
+          href: "https://github.com/facebook/docusaurus",
+          html: "Try it for free",
+          position: "right",
+          className: "signup",
         },
       ],
     },

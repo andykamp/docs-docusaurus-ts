@@ -69,6 +69,19 @@ https://github.com/infinum/eightshift-frontend-libs/blob/develop/styles/scss/_co
 	}
 }
 
+.signup{
+    background: var(--global-colors-elephant);
+    color: white !important;
+    border-radius: 2px;
+    font-weight: 500;
+    padding: 0 20px;
+
+}
+
+.searchBox_node_modules-\@docusaurus-theme-classic-lib-theme-Navbar-Search-styles-module{
+    display: none;
+}
+
 .heading-size {
 	&--huge {
 		font-size: var(--font-size, var(--global-font-size-larger));
