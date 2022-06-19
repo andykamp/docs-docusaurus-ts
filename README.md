@@ -5,8 +5,8 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 
 
 # TODOs #
+- [✓] add **sign in** and **Sign up for free** buttons in header
 - [✗] make changing font and color super easy
-- [✗] add **sign in** and **Sign up for free** buttons in header
 - [✗] convert to typescript
 - [✗] convert to styled components in sections (scss is still needed to overide global docusaurus stuff)?
 - [✗] converge on deploy pipeline and also how to keep it up to date on original repo 
@@ -64,4 +64,17 @@ If we only want to show docs (and not blogs) we could:
 If we also want to remove the homepage and just have the documentatoin: 
 - go to intro.md and add `slug: /`  to the frontmatter
 - delete the pages/index.js
+
+
+## Removing header buttons ##
+Header buttons are defined in the **docusaurus.config.js** file under **themeConfig.navbar.items**
+
+## Changing theme colors ##
+
+There is primarily 3 colors you would want to change: 
+- primary color
+- text color
+- background color
+- sidebar color
+- 
 

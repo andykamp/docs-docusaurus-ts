@@ -46,9 +46,9 @@ module.exports = {
           position: "right",
         },
         {
-          to: "/pricing",
-          activeBasePath: "pricing",
-          label: "Pricing",
+          to: "/assets",
+          activeBasePath: "assets",
+          label: "Assets",
           position: "right",
         },
         {
@@ -58,9 +58,9 @@ module.exports = {
           position: "right",
         },
         {
-          to: "/assets",
-          activeBasePath: "assets",
-          label: "Assets",
+          to: "/pricing",
+          activeBasePath: "pricing",
+          label: "Pricing",
           position: "right",
         },
         {

@@ -30,7 +30,7 @@ https://github.com/infinum/eightshift-frontend-libs/blob/develop/styles/scss/_co
 	--global-colors-cape:     #4B5555;
 	--global-colors-nevada:   #656F6F;
 	--global-colors-pewter:   #999C9C;
-	--global-colors-mandy:    #E84E4E;
+	--global-colors-mandy:    #9972E3;
 	--global-colors-picton:   #44AEDE;
 	--global-colors-chamois:  #F5DD64;
 	--global-colors-egg:      #F7EFC7;
@@ -69,6 +69,52 @@ https://github.com/infinum/eightshift-frontend-libs/blob/develop/styles/scss/_co
 	}
 }
 
+
+// blog header
+.blogPostTitle_nodblogPoste_modules-\@docusaurus-theme-classic-lib-theme-BlogPostItem-styles-module {
+    > a{
+        color: var(--global-colors-mandy);
+    }
+}
+
+// blog autor
+.avatar__name{
+    span{
+         // color: var(--global-colors-mandy);
+        color: var(--ifm-link-color);
+    }
+    a{
+       &:hover{
+        color: var(--ifm-link-color);
+        text-decoration: var(--ifm-link-decoration);
+        }
+    }
+}
+
+// blog taga
+.tagRegular_node_modules-\@docusaurus-theme-classic-lib-theme-Tag-styles-module {
+    color: var(--ifm-link-color);
+    &:hover{
+        color:  var(--ifm-link-color);
+    }
+}
+
+.tagWithCount_node_modules-\@docusaurus-theme-classic-lib-theme-Tag-styles-module {
+    color:  var(--ifm-link-color);
+    &:hover{
+        color: var(--ifm-link-color);
+    }
+}
+
+.tag_node_modules-\@docusaurus-theme-classic-lib-theme-Tag-styles-module {
+    --docusaurus-tag-list-border: var(--ifm-link-color);
+    &:hover{
+    --docusaurus-tag-list-border: var(--ifm-link-color);
+    }
+}
+
+
+// signup button
 .signup{
     background: var(--global-colors-elephant);
     color: white !important;
@@ -78,6 +124,7 @@ https://github.com/infinum/eightshift-frontend-libs/blob/develop/styles/scss/_co
 
 }
 
+// hide searchbar
 .searchBox_node_modules-\@docusaurus-theme-classic-lib-theme-Navbar-Search-styles-module{
     display: none;
 }
