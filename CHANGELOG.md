@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/andykamp/docs-docusaurus-ts/compare/v1.0.1...v1.0.2) (2022-06-20)
+
+
+### Features
+
+* Add changelog to readme ([2d757c9](https://github.com/andykamp/docs-docusaurus-ts/commit/2d757c95217bb71e821455ce332eea7d5d893597))
+
 ## [1.0.1](https://github.com/andykamp/docs-docusaurus-ts/compare/v1.0.0...v1.0.1) (2022-06-20)
 
 
