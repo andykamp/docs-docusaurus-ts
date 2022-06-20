@@ -2,7 +2,7 @@ import React from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import Layout from "@theme/Layout";
-import Pricing from "../theme/sections/pricing/pricing";
+import Pricing from "../theme/sections/pricing";
 
 export default function Sass() {
   const context = useDocusaurusContext();
