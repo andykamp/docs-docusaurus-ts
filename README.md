@@ -55,6 +55,11 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 
 
+# Changelog #
+
+We use release-please for versoning and automatic changelog. 
+By utilizing  [Conventional Commit messages](https://www.conventionalcommits.org/en/v1.0.0/) it generates release PRs.
+
 
 # Costumization #
 
