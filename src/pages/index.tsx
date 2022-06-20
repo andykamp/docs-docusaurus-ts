@@ -4,7 +4,7 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 import Layout from "@theme/Layout";
 import Intro from "../theme/sections/intro/intro";
 import Features from "../theme/sections/features";
-import Foot from "../theme/sections/foot/foot";
+import Foot from "../theme/sections/foot";
 
 export default function Home() {
   const context = useDocusaurusContext();

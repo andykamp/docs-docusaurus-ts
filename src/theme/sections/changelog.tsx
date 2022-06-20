@@ -1,6 +1,6 @@
 import React from "react";
-import Heading from "../../components/heading/heading";
-import Container from "../../components/container/container";
+import Heading from "./../components/heading/heading";
+import Container from "./../components/container/container";
 
 export default function ShowcaseGrid() {
   const component = "changelog";
