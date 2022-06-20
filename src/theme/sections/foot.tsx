@@ -1,5 +1,4 @@
 import React from "react";
-import useBaseUrl from "@docusaurus/useBaseUrl";
 import Container from "./../components/container/container";
 import { device } from "../../scss/device";
 import styled from "styled-components";
