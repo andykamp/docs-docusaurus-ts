@@ -2,7 +2,6 @@ import React from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import Layout from "@theme/Layout";
-import Changelog from "../theme/sections/changelog";
 
 export default function Sass() {
   const context = useDocusaurusContext();
@@ -16,7 +15,7 @@ export default function Sass() {
       metaImage={useBaseUrl(`img/${siteConfig.customFields.image}`)}
       wrapperClassName={"page-assets"}
     >
-      <Changelog />
+      assets
     </Layout>
   );
 }
