@@ -58,6 +58,8 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 # Costumization #
 
+
+## General ##
 If we only want to show docs (and not blogs) we could:
 - remove all blogs in the **blogs** folder
 - remove the blog item from the configuration so that the link dissapears
@@ -66,6 +68,10 @@ If we also want to remove the homepage and just have the documentatoin:
 - go to intro.md and add `slug: /`  to the frontmatter
 - delete the pages/index.js
 
+
+## Styling and tools  ##
+
+We use a mix of scss and styled components for this project template. We have to use pure css/scss for overriding docusaurus theme, and then for additional content we use styled components
 
 ## Removing header buttons ##
 Header buttons are defined in the **docusaurus.config.js** file under **themeConfig.navbar.items**
