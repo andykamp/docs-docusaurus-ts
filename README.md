@@ -6,6 +6,7 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 
 # TODOs #
 - [✓] add **sign in** and **Sign up for free** buttons in header
+- [✗] make table of content slider visible 
 - [✗] make changing font and color super easy
 - [✗] convert to typescript
 - [✗] convert to styled components in sections (scss is still needed to overide global docusaurus stuff)?
