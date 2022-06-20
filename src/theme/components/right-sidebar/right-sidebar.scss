@@ -1,4 +1,7 @@
 #__docusaurus {
+    .tableOfContents_node_modules-\@docusaurus-theme-classic-lib-theme-TOC-styles-module {
+        overflow: hidden;
+    }
 	.table-of-contents {
 		padding-left: var(--global-gutter);
 		width: var(--global-sidebar-width);
