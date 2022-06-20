@@ -2,7 +2,7 @@
 title: ACF in a project
 description: Example of using ACF in your project
 slug: acf-in-a-project
-authors: obradovic
+authors: andykamp
 date: 2022-05-17
 tags: [eightshift, boilerplate, acf, advanced custom fields, theme options]
 hide_table_of_contents: false
