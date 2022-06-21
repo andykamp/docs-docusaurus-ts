@@ -6,6 +6,8 @@ authors: andykamp
 tags: [eightshift, boilerplate, components, blocks]
 hide_table_of_contents: false
 ---
+fdsfjdfjlkfdsj:wq
+
 In this blog post, we'll give you a practical explanation about the difference between components and blocks. For a truly in-depth explanation about components and blocks, you can refer to [our documentation](/docs/basics/blocks). A more specific explanation about using components in a block can be found in the [Component in a Block](/docs/basics/blocks-component-in-block/) section.
 
 <!--truncate-->
