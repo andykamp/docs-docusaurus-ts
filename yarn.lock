@@ -6958,10 +6958,10 @@ relateurl@^0.2.7:
   resolved "https://registry.yarnpkg.com/relateurl/-/relateurl-0.2.7.tgz#54dbf377e51440aca90a4cd274600d3ff2d888a9"
   integrity sha512-G08Dxvm4iDN3MLM0EsP62EDV9IuhXPR6blNz6Utcp7zyV3tr4HVNINt6MpaRWbxoOHT3Q7YN2P+jaHX8vUbgog==
 
-release-please@^13.18.3:
-  version "13.18.3"
-  resolved "https://registry.yarnpkg.com/release-please/-/release-please-13.18.3.tgz#71331169750340bdd2ac98de428ad94f3b38bf54"
-  integrity sha512-tgPpmFfUvI85eQ6Jt9E5t7DqMDhXCgYqxrAlcEMP0d+eiLHAQjL+tHLwD46KUaWBI1ySk8pwmAFJHF0sWpXusg==
+release-please@^13.19.2:
+  version "13.19.2"
+  resolved "https://registry.yarnpkg.com/release-please/-/release-please-13.19.2.tgz#2f9101d4e250ab3c475afc964dd6528aef2b8dd3"
+  integrity sha512-PEA/exjLxWG6y3z9sqGW3B3vFNj5QXC8ifvKZCWSsqDZufyjflGqsbLEsnNmgyCOdKQknP6HvdIKyIN7F6YcjQ==
   dependencies:
     "@conventional-commits/parser" "^0.4.1"
     "@iarna/toml" "^2.2.5"
